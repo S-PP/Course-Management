@@ -9,7 +9,7 @@ import mysql.connector
 from flask import  json, jsonify
 from flask_mysqldb import MySQL,MySQLdb
 app = Flask(__name__)
-app.secret_key = "Atharv Bhagya"
+app.secret_key = "Shubham"
 
 db= mysql.connector.connect(
     host="localhost",
